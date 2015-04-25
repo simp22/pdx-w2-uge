@@ -1,0 +1,40 @@
+# Git Basics
+
+What is git?
+save repositories, snapshots
+version control system
+history of everything you do with your files
+graph of ‘states’ in which your files has existed
+
+Steps (Lifecycle, Simple Workflow): 
+* modify, add, commit
+1. Make changes (Dirty)
+2. Add (Stage Changes)
+3. Commit (Clean)
+
+GIT COMMAND: commit
+1. Changes made to each file on the stage
+2. ID of the person who made the changes
+3. Date and time the change was made
+4. Brief message about the nature of the changes made
+5. Universally unique ID for the set of changes (aka “Hash Code”, “SHA1 hashes”)
+
+Terminal Fish Command Prompt:
+x pink (aka “dirty”) in the prompt means changes have been made that have not been committed
+checkmark green means everything is up-to-date
+M yellow Modified un-staged
+M green Modified added/staged
+
+Commands:
+git status Lists all new or modified files to be committed
+git add [file] Snapshots the file in preparation for versioning (aka “Stage”)
+git reset [file] Upstages the file but preserves its contents
+git commit -m “[descriptive message]” Records file snapshots permanently in version history (aka “Clean”)
+
+# Git Branches
+
+git branch [branch-name] Creates a new branch
+git branch Lists all local branches in the current repository
+git checkout [branch-name] Switches to the specified branch and updates the working directory
+
+
