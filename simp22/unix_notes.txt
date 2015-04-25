@@ -1,0 +1,60 @@
+# Unix Intro
+
+We are here to become a developer (app dev)
+
+Apps need a home
+- laptop, mobile device, browser, server
+Majority of apps run on unix (de facto standard, stable, faster, open)
+
+Unix is an operating system (multi-process, -user)
+Developed by Ken Thompson & Dennis Ritchie at AT&T Bell Labs
+Most popular? Linux (case-sensitive op system)
+
+Unix is great for developers:
+- data as plain text files (ease of understanding amongst developers, better than binary)
+- many small programs (text editor, music player, web browser, operating system)
+—- this makes it easier to update
+- input-output redirection (combine small understandable models into complex and interesting ways; little effort complex processes)
+
+Unix Kernel
+- Manages the hardware
+- between other programs and the cpu, memory, devices (webcam, speakers)
+- does all of this in a timely and organized fashion
+- safe from hackers
+
+Unix Shell (synonomous with the command line)
+- another small program
+- user interface (graphical, multi-touch, audible)
+- the “shell” is like a nut and is the protective coating of the kernel (turtle shell)
+
+# Unix Shell Navigating Files System
+# Changing File System
+
+Terminal Commands:
+cd Home directory
+cd Home directory
+pwd Full path to working directory
+ls Short Listing
+ls -l Long Listing size in bits (8 bits = 1 byte)
+ls -t Sort by time modified
+ls -a Listing incl. hidden files
+clear clear screen
+reset Resets the terminal display
+man [command] Show the help for ‘command’
+history Shows the stuff typed
+history | more (alternatively “less”) Show the stuff typed with pager for more/less
+- by pressing <space> page down
+history > moving_around.txt
+> Redirection; if file does not exist, it is created
+>> If the files exist, it appends
+find . -name “file-name” Find the path for a file or directory
+mv [file] [new filename] Move/Rename, e.g. mv -v [file][dir]
+
+
+
+
+
+
+
+
+
